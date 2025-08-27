@@ -1,11 +1,30 @@
-# venv / cache
-.venv/
 __pycache__/
-*.pyc
-# env
-.env
-# pytest
+*.py[cod]
+*.so
+.venv/
+env/
+*.egg-info/
+build/
+dist/
 .pytest_cache/
-# mypy/ruff (на будущее)
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
 .mypy_cache/
 .ruff_cache/
+.tox/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.python-version
+.env
+.env.*
+!.env.example
+*.sqlite3
+test.db
+*.log
+logs/
+uvicorn.log
+pgdata/
