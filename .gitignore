@@ -1,0 +1,11 @@
+# venv / cache
+.venv/
+__pycache__/
+*.pyc
+# env
+.env
+# pytest
+.pytest_cache/
+# mypy/ruff (на будущее)
+.mypy_cache/
+.ruff_cache/
